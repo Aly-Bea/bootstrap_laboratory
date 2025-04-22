@@ -1,0 +1,13 @@
+.carousel-inner img {
+    width: 1600px;
+    height: 350px;
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+}
+.carousel-inner h1 {
+    color: #205781;
+    text-align: center;
+}
+.carousel-inner p {
+    color: #0642b1;
+    text-align: center;
+}
