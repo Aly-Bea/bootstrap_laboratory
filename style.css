@@ -1,7 +1,7 @@
 body {
     background: url('bg.png') no-repeat center center fixed;
     background-size: auto;
-    background-color: #077A7D;
+    
 }
 .carousel-inner img {
     width: 1600px;
@@ -17,10 +17,32 @@ body {
     text-align: center;
 }
 .skills-heading {
-    font-family: 'Georgia', serif; 
+    font-family: 'Playfair Display', serif; 
     font-size: 2.5rem; 
-    color: #b30000; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #205781; 
     margin-bottom: 1rem; 
-    text-transform: uppercase; 
+    text-align: center;
+}
+.skills-box {
+    background-color: #f7cfff;  
+    border-radius: 15px; 
+    padding: 15px; 
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skills-box h4 {
+    font-family: 'Playfair Display', serif;
+    color: #205781; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.skills-box p {
+    font-size: 1rem;
+    margin: 0;
 }
