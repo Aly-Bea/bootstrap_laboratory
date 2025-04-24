@@ -46,3 +46,14 @@ body {
     font-size: 1rem;
     margin: 0;
 }
+#about h2 {
+    font-family: 'Playwrite RO', sans-serif;
+    color: #205781;
+    margin-bottom: 1rem;
+}
+#about p {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
